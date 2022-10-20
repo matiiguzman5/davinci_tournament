@@ -9,6 +9,5 @@ public class Clase17_10 {
         Date finDeCursada = new Date(2022,11,5);
 
         Season torneoDaVinci = new Season("Torneo 2022, 2do cuatri" , comienzoDeCursada, finDeCursada);
-
     }
 }
