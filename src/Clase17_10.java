@@ -13,9 +13,11 @@ public class Clase17_10 {
 
         Date fechaParcial = new Date (2022, 8, 29);
 
-        Match primerParcial= new Match("Aula 116" , fechaParcial);
-
         Team profesPoo = new Team("Profes POO");
         Team estudiantesPoo = new Team("Estudiantes POO");
+
+        Match primerParcial= new Match("Aula 116" , fechaParcial);
+        primerParcial.setLocalTeam(profesPoo);
+        primerParcial.setVisitantTeam(estudiantesPoo);
     }
 }
