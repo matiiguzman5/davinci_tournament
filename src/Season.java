@@ -35,4 +35,20 @@ public class Season {
         this.endDate = endDate;
         return ;
     }
+
+    public Date getEndDate() {
+        return endDate;
+    }
+
+    public Date getStartDate() {
+        return startDate;
+    }
+
+    public ArrayList<Match> getMatchs() {
+        return matchs;
+    }
+
+    public void setMatchs(ArrayList<Match> matchs) {
+        this.matchs = matchs;
+    }
 }
