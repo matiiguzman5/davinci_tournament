@@ -19,6 +19,7 @@ public class Clase17_10 {
         Team profesPoo = new Team("Profes POO");
         profesPoo.addPlayer(lbicho);
         profesPoo.addPlayer(messichikito);
+
         Team estudiantesPoo = new Team("Estudiantes POO");
 
         Match primerParcial= new Match("Aula 116",
