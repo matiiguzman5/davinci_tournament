@@ -13,7 +13,12 @@ public class Clase17_10 {
 
         Date fechaParcial = new Date (2022, 8, 29);
 
+        Player lbicho = new Player("Elbicho", "DC");
+        Player messichikito = new Player("Messichiki", "ED");
+
         Team profesPoo = new Team("Profes POO");
+        profesPoo.addPlayer(lbicho);
+        profesPoo.addPlayer(messichikito);
         Team estudiantesPoo = new Team("Estudiantes POO");
 
         Match primerParcial= new Match("Aula 116",
@@ -22,7 +27,8 @@ public class Clase17_10 {
                 estudiantesPoo
         );
 
-        Player profeElbicho = new Player("Elbicho", "DC");
+
+
 
     }
 }
