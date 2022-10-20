@@ -16,8 +16,11 @@ public class Clase17_10 {
         Team profesPoo = new Team("Profes POO");
         Team estudiantesPoo = new Team("Estudiantes POO");
 
-        Match primerParcial= new Match("Aula 116" , fechaParcial);
-        primerParcial.setLocalTeam(profesPoo);
-        primerParcial.setVisitantTeam(estudiantesPoo);
+        Match primerParcial= new Match("Aula 116",
+                fechaParcial,
+                profesPoo,
+                estudiantesPoo
+        );
+
     }
 }
