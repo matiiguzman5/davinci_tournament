@@ -1,3 +1,4 @@
+import javax.xml.stream.Location;
 import java.util.Date;
 
 public class Match {
@@ -11,6 +12,13 @@ public class Match {
     Match(){
         this.setLocalGoalCounter(0);
         this.setVisitantGoalCounter(0);
+    }
+
+    Match(String location, Date date){
+        this.setLocalGoalCounter(0);
+        this.setVisitantGoalCounter(0);
+        this.setDate(date);
+        this.setLocation(location);
     }
 
     public void setLocation(String location){
