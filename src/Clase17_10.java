@@ -22,5 +22,7 @@ public class Clase17_10 {
                 estudiantesPoo
         );
 
+        Player profeElbicho = new Player("Elbicho", "DC");
+
     }
 }
