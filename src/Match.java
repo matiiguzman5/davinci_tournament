@@ -30,6 +30,16 @@ public class Match {
         this.setVisitantTeam(visitant);
     }
 
+    public String generateMarker () {
+        //return this.getLocalCounter() + "-" + getVisitantGoalCounter();
+        return String.format("%s (%d) - (%d) %s",
+                this.getLocalTeam().getName(),
+                this.getLocalCounter() ,
+                this.getVisitantGoalCounter(),
+                this.getVisitantTeam().getName()
+        );
+    }
+
     public void setLocation(String location){
         this.location = location;
         return;
@@ -69,5 +79,13 @@ public class Match {
     public void setVisitantGoalCounter(int visitantGoalCounter) {
         this.visitantGoalCounter = visitantGoalCounter;
         return;
+    }
+
+    public int getVisitantGoalCounter() {
+        return visitantGoalCounter;
+    }
+
+    public Team getVisitantTeam() {
+        return visitantTeam;
     }
 }

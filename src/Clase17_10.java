@@ -45,8 +45,7 @@ public class Clase17_10 {
                 estudiantesPoo
         );
 
-
-
+        System.out.println(primerParcial.generateMarker());
 
     }
 }
