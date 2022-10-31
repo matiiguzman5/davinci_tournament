@@ -30,6 +30,17 @@ public class Match {
         this.setVisitantTeam(visitant);
     }
 
+    public void makeGoal(Team team, Player player){
+        if (team.getName() == this.localTeam.getName()) {
+            this.localGoalCounter++;
+    }
+    if (team.getName() == this.getVisitantTeam().getName()) {
+        this.visitantGoalCounter++;
+    }
+    player.incrementGoalCounter();
+}
+
+
     public String generateMarker () {
         //return this.getLocalCounter() + "-" + getVisitantGoalCounter();
         return String.format("%s (%d) - (%d) %s",

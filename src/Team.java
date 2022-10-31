@@ -23,7 +23,14 @@ public class Team {
         player.setTeam(this);
     }
 
+
     public void setPlayers(ArrayList<Player> players) {
         this.players = players;
+
+    }
+
+    public ArrayList<Player> getPlayers() {
+        return this.players;
     }
 }
+

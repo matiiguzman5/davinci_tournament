@@ -46,6 +46,7 @@ public class Clase17_10 {
         );
 
         System.out.println(primerParcial.generateMarker());
-
+        primerParcial.makeGoal(profesPoo, profesPoo.getPlayers().get(0) );
+        System.out.println(primerParcial.generateMarker());
     }
 }
